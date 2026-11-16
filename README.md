@@ -1,4 +1,4 @@
-# Eksekusi SOKA Metaheuristic di Dunia Nyata
+# Implementasi SOKA Metaheuristic di Real World
 
 Proyek ini menambahkan eksekusi task melalui AWS/HTTP dengan autentikasi ke scheduler CSA dan PHS berbasis Java yang sudah ada. Source CloudSim dan dataset tetap disertakan agar simulasi dan eksekusi nyata berjalan sebagai mode yang terpisah. Lihat [panduan deployment dan penggunaan](docs/real-world-execution.md).
 
