@@ -1,0 +1,6 @@
+{
+  "workers": [
+    { "hostId": "host-a", "vmId": 0, "endpoint": "http://WORKER_PUBLIC_IP:8080", "slots": 2, "modeledHourlyRateUsd": 0.05 },
+    { "hostId": "host-b", "vmId": 1, "endpoint": "http://SECOND_WORKER_PUBLIC_IP:8080", "slots": 2, "modeledHourlyRateUsd": 0.05 }
+  ]
+}

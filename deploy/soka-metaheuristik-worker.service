@@ -1,0 +1,16 @@
+[Unit]
+Description=SOKA Metaheuristic CPU Worker
+After=network.target
+
+[Service]
+Type=simple
+User=soka
+WorkingDirectory=/opt/soka-metaheuristik/java
+EnvironmentFile=/etc/soka-worker.env
+ExecStart=/opt/soka-metaheuristik/java/build/install/cloud-scheduling/bin/cloud-scheduling worker --host-id %H --vm-id 0 --slots 2 --bind 0.0.0.0 --port 8080
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
